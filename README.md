@@ -1,3 +1,63 @@
+Individual contribution to Prototype
+Xu Han
+ 
+I am Xu Han. When driving project progress, I took charge of organizing weekly team sync - ups. I drafted agendas upfront, clearly listing topics like database structure design discussions and task handoffs. During meetings, I actively took notes, capturing decisions on MySQL table constraints and action items for Flask - related assists. Post - meeting, I shared concise summaries, ensuring everyone stayed aligned on database - focused priorities and next steps.
+Additionally, I led the compilation of in - depth project reports. I synthesized meeting records, development milestones, and emerging challenges into comprehensive documents, providing with clear overviews of database - related project advancements and areas needing attention.
+Furthermore, I was responsible for weekly communication with the teacher in class regarding the project's improvement directions. Before each class, I would gather insights from team members, identify key areas for improvement, and organize relevant data and issues. During the class, I actively engaged in discussions with the teacher, presenting our current progress, bottlenecks, and proposed solutions. I listened carefully to the teacher's feedback and suggestions, and recorded them in detail. After the class, I promptly shared the teacher's guidance and the results of the discussion with the team, ensuring that everyone understood the new improvement directions and could adjust their work accordingly.
+
+ 
+Xirui Wang
+ 
+I am Xirui Wang. To boost team collaboration, I organized frontend - focused workshops. I planned agendas covering React.js architecture reviews and data visualization tool (Recharts/Chartjs) brainstorming. In these sessions, I documented key insights—like improving responsive design flows and visual interface enhancements. I then distributed these notes, helping the team sync on frontend development goals and task allocations for the agricultural monitoring platform.
+Moreover, I took the lead in collating and finalizing weekly presentation slides. I aggregated information from various sources, including workshop outcomes, task progress updates, and upcoming plans, into visually appealing and informative PowerPoint presentations. These slides were used to effectively communicate frontend project status and achievements during weekly reviews.
+I was also tasked with writing weekly feedback for other groups. I reviewed their work and presentations, analyzing strengths like innovative UI design or efficient coding, and identifying weaknesses such as poor communication or subpar data handling. I compiled constructive feedback, highlighting improvements while commending successes. After sharing feedback, I summarized insights on best practices and pitfalls, then shared these with our team to integrate others' strengths and avoid their weaknesses, enhancing our project quality.
+
+ 
+Jiawei Gu
+ 
+I am Jiawei Gu. For project coordination, I spearheaded security - themed team check - ins. I structured agendas around user authentication workflows and API security audits. During meetings, I meticulously recorded decisions on login verification processes and API key validation steps. Afterward, I circulated detailed notes, ensuring the team stayed on track with security - critical tasks and Flask framework - related frontend - backend collaborations.
+ 
+Hanwen Liu
+ 
+I am Hanwen Liu. To streamline communication, I organized API - routing team huddles. I crafted agendas focusing on React Router 6+ implementation and HTTP request handling strategies. In these meetings, I documented key choices—like route structure designs and Axios usage optimizations. I shared these notes promptly, keeping the team aligned on API - related development priorities and frontend - backend interaction plans.
+ 
+Huabin Liu
+ 
+I am Huabin Liu. For cross - module coordination, I led Material UI 5+ design syncs. I planned agendas covering component library integrations and real - time data communication (Socket.IO) alignments. During sessions, I captured decisions on UI component usage and front - end - server data flow tweaks. Post - meeting, I distributed notes, ensuring the team stayed coordinated on UI - focused tasks and real - time communication implementations.
+ 
+Yu Tian
+ 
+I am Yu Tian. To support project organization, I managed MQTT - related team collaborations. I structured agendas around sensor data simulation plans and IoT platform communication tests. In these meetings, I documented key steps—like Paho - MQTT script construction and auxiliary script writing tasks. I shared these notes, helping the team stay on track with MQTT - focused deliverables and overall project dependency management.
+
+INDIVIDUAL CONTRIBUTION TO code
+Xu Han's Contribution
+ 
+I'm Xu Han. I took the lead in building the database for the Smart Farm System. Using the relational database MySQL, I structured data storage by defining table structures for modules like users, sensors, actuators, data logging, and alerts. I applied external check constraints to safeguard data integrity and consistency, and ensured the rationality of key data. Additionally, I assisted in leveraging Flask - SQLAlchemy for ORM database operations and supported the implementation of the real - time data push module with Flask - SocketIO at the backend.I also integrated the DeepSeek API for Q&A: studied docs, built request - response logic, verified answer accuracy, and delivered structured responses to the team, aiding in resolving doubts efficiently.
+
+ 
+Xirui Wang's Contribution
+ 
+I'm Xirui Wang. I adopted the JavaScript stack (React.js) to build a responsive web front - end architecture. Leading the development of the visual interface for the intelligent agricultural monitoring platform, I constructed a dynamic data visualization system using Recharts/Chartjs/ApexCharts. This system achieves real - time monitoring of environmental parameters such as temperature, humidity, and light, along with historical trend analysis. I also assisted in using Socket.IO Client to complete the real - time data communication module.
+ 
+Jiawei Gu's Contribution
+ 
+I'm Jiawei Gu. I built a lightweight Python web framework with Flask and assisted in related front - end design work. Primarily handling user authentication and permission management, I deployed and executed security - related functions like user login verification and API key validation, and inspected API keys to ensure project security. I also completed the writing of startup service code and global configuration initialization.
+ 
+Hanwen Liu's Contribution
+ 
+I'm Hanwen Liu. I was responsible for defining API routes. Using React Router 6+, I managed client - side routing by creating the routes folder and defining functions to handle situations when the front - end or other devices access the back - end service via HTTP requests. I also used Axios to solve HTTP request - related processing issues and employed Python - dotenv to manage environment variables, protecting the monitoring of this project's environment variables.
+ 
+Huabin Liu's Contribution
+ 
+I'm Huabin Liu. I built the application using the modern UI component library Material UI 5+. Based on front - end design, I used Socket.IO Client to achieve real - time, low - latency two - way data communication between the web browser and the server. I assisted in building the database section, collected relevant literature to organize datasets, checked the rationality of important database data, and created sensor data that accepts parameters like sensor type and location.
+ 
+Yu Tian's Contribution
+ 
+I'm Yu Tian. I used Paho - MQTT to simulate sensor data and communicate with the IoT platform. I completed script construction and took charge of the key part of MQTT client communication. I also wrote various auxiliary scripts, including database migration scripts and scheduled task scripts, organized functional codes, and documented project requirements, as well as summarized all the libraries the project relies on.
+
+
+
+
 # Smart Farm System
 
 ![Smart Farm System](https://img.shields.io/badge/Smart%20Farm-IOT%20Platform-brightgreen)
